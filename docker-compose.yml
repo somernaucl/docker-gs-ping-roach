@@ -29,7 +29,7 @@ services:
       - mynet
     ports:
       - 26257:26257
-      - 8080:8080
+      - 9090:9090
     volumes:
       - roach:/cockroach/cockroach-data
     command: start-single-node --insecure
